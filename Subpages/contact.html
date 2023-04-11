@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Bighead Man Information Page</title>
+		
+		<link rel="stylesheet" href="../standard.css">
+		
+		<script type="text/javascript" src="../Resources/Scripts/submit.js"></script>
+	</head>
+
+	<body>
+		
+		<!-- Header -->
+		<div class="topBar sticky">
+			<a href="../Bighead Man Information Page.html">
+				<img src="../Resources/Images/bhmisLogo.png" width="12%" alt="site logo" style="float: left;">
+			</a>
+			<table height="100%">
+				<tr>
+					<!-- Dropdowns from: https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar2 -->
+					<td class="dropdown">
+						<span>
+							Bighead Man
+						</span>
+						<div class="dropdown-content">
+							<a style="color: black;" href="bhm1.html">Who is he?</a>
+							<a style="color: black;" href="bhm2.html">Where did he come from?</a>
+						</div>
+					</td>
+					<td class="dropdown">
+						<span>
+							Beans
+						</span>
+						<div class="dropdown-content">
+							<a style="color: black;" href="beans1.html">What are beans?</a>
+							<a style="color: black;" href="beans2.html">The Bean Prophecy</a>
+						</div>
+					</td>
+					<td><a href="universe.html"><span style="cursor: pointer; color: black;">Universal End</span></a></td>
+				</tr>
+			</table>
+		</div> 
+
+		<!-- Main -->
+		<div style="padding: 1%;"></div>
+		<div class="main" style="padding-top: 0;">
+			<h2 style="font-size: 750%; background-color: #0D69AC;">Contact Us</h2>
+			<img alt="bighead man shrine" src="../Resources/Images/bigheadManShrine.png" style="float: right; padding: 1%;" width="45%">
+			<p style="padding-top: 2%; padding-left: 2%; font-size: 125%;">Thank you for visiting The Offical Bighead Man Information Site, we are deducated to spreading the word of our true friend and top G, Bighead Man. If you would like a question answered about Bighead Man or have an issue with the site, here's how you can get in touch:</p>
+			<br>
+			<h1>The Bighead Man Shrine</h1>
+			<ul style="font-size: 95%;">
+				<li>333 Heavenway Lane</li>
+				<li>Heaven, Existence, 0001</li>
+				<li>Phone: 3333-333-333</li>
+				<li>Email: bigheadman.beans@gmail.com</li>
+			</ul>
+			<br>
+			<p style="padding-top: 2%; padding-left: 2%; font-size: 125%;">Would rather create a ticket? Please fill out the form below with your appropriate information.</p>
+			<br>
+			<hr>
+			<br>
+			
+			<form id="myForm">
+				<!-- Contact Information -->
+				<div>
+					<h1>Contact Information</h1>
+					<div class="contactGrid">
+						<div>
+							<h3>First Name</h3>
+							<input type="text" id="fname" name="fname" class="text"><br>
+						</div>
+						<div>
+							<h3>Last Name</h3>
+							<input type="text" id="lname" name="lname" class="text"><br>
+						</div>
+					</div>
+					<div class="contactGrid" style="grid-template-columns: 50% auto;">
+						<div>
+							<h3>Phone Number</h3>
+							<input type="text" id="pnum" name="pnum" class="text"><br>
+						</div>
+					</div>
+					<div class="contactGrid">
+						<div>
+							<h3>Email</h3>
+							<input type="text" id="email" name="email" class="text">
+						</div>
+						<div>
+							<h3>Confirm Email</h3>
+							<input type="text" id="conemail" name="conemail" class="text"><br>
+						</div>
+					</div>
+				</div>
+				<br>
+
+				<!-- Message -->
+				<div>
+					<h1 style="padding-bottom: 1%;">Message</h1>
+					<textarea class="text" width="100%" name="message" rows="10" cols="30" style="left: 4%; padding: 1%;"></textarea>
+				</div>
+				<div>
+					<h1 style="padding-top: 2%; text-align: center;">Ready to Submit?</h1>
+					<ul>
+						<li><span style="font-size: 65%">Ensure you have filled all boxes</span></li>
+						<li><span style="font-size: 65%">Ensure all information is correct</span></li>
+					</ul>
+					<br>
+				</div>
+			</form>
+			<button onclick="checkEmail();">Submit</button>
+		</div>
+		<div style="padding: 1%;"></div>
+		
+		<!-- Footer -->
+		<div class="footer">
+			<div style="display: grid; grid-template-columns: auto auto; padding: 2% 3%;">
+				<div>
+					<h1 style="color: white;">Sitemap</h1>
+					<ul style="list-style-type: none; padding-left: 3%;">
+						<li style="color: #ddd; font-size: 100%; text-decoration: underline;"><a href="../Bighead Man Information Page.html">Home</a></li>
+						<br>
+						<li style="color: #ddd; font-size: 100%; text-decoration: underline;">Bighead Man 
+							<ul style="list-style-type: none;">
+								<li style="font-size: 100%;"><a href="bhm1.html">Who is he?</a></li>
+								<li style="font-size: 100%;"><a href="bhm2.html">Where did he come from?</a></li>
+							</ul>
+						</li>
+						<br>
+						<li style="color: #ddd; font-size: 100%; text-decoration: underline;">Beans 
+							<ul style="list-style-type: none;">
+								<li style="font-size: 100%;"><a href="beans1.html">What are beans?</a></li>
+								<li style="font-size: 100%;"><a href="beans2.html">The Bean Prophecy</a></li>
+							</ul>
+						</li>
+						<br>
+						<li style="color: #ddd; font-size: 100%; text-decoration: underline;"><a href="universe.html">Universal End</a></li>
+						<br>
+						<li style="color: #ddd; font-size: 100%; text-decoration: underline;"><a href="bibliography.html">Bibliography</a></li>
+					</ul>
+				</div>
+				<div>
+					<h1 style="color: white; text-align: right;">Want to know more?</h1>
+					<a href="contact.html"><p class="bottomContact" style="">Contact Us</p></a>
+					
+					<br>
+					<p style="color: white; text-align: right;">Find us here!</p>
+					<div align="right" style="padding: 3%;">
+						<a style="padding-right: 2%;" target="_blank" href="https://www.roblox.com/users/73428987/profile"><img alt="roblox" src="../Resources/Images/roblox.png" width="10%"></a>
+						<a style="padding-right: 2%;" target="_blank" href="https://www.youtube.com/channel/UCa1nWwVZHbwpZIAwji_mIdg"><img alt="youtube" src="../Resources/Images/youtube.png" width="10%"></a>
+						<a target="_blank" href="https://steamcommunity.com/profiles/76561198859789818"><img alt="steam" src="../Resources/Images/steam.png" width="10%"></a>
+					</div>
+					<a href="#top"><h2 style="text-align: right; font-size: 150%">Back To Top &#8593</h2></a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

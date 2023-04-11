@@ -1,0 +1,12 @@
+/* Fonts */
+@font-face {
+	font-family: TF2Build;
+	src: url(../Resources/Fonts/tf2build.woff);
+}
+
+/* Background */
+body {
+	background-image: url('../Resources/Images/Basement/basementStairs.jpg');
+	background-size: cover;
+	overflow: hidden;
+}
